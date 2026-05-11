@@ -1,31 +1,35 @@
 # Dashboard de Monitoreo de KPIs Área Comercial
 
 ## Descripción
+
 Dashboard en Power BI para el monitoreo de KPIs comerciales, actividad de distribuidores y desempeño de ventas.
 
 
 ## Objetivo del proyecto
+
 Desarrollar un dashboard de Business Intelligence en Power BI para monitorear y analizar indicadores clave del área comercial, proporcionando visibilidad sobre el desempeño de distribuidores, comportamiento de pedidos y métricas de ventas. La solución permite facilitar el seguimiento operativo y apoyar la toma de decisiones mediante KPIs interactivos y análisis de tendencias comerciales.
 
 
 ## KPIs Principales
-- Distribuidores con pedido por semana.
-- Ticket promedio.
-- Ventas promedio por asesor comercial.
-- Distribuidores nuevos por semana y por zona comercial.
-- Distribuidores inactivos.
-- Crecimiento con medias móviles.
+
+- Distribuidores con pedido por semana
+- Ticket promedio
+- Ventas promedio por asesor comercial
+- Distribuidores nuevos por semana y por zona comercial
+- Distribuidores inactivos
+- Crecimiento con medias móviles
 
 
 ## Funcionalidades Principales
-- Monitoreo de KPIs comerciales en tiempo real.
-- Seguimiento de nuevos distribuidores y distribuidores activos.
-- Análisis de pedidos por semana, mes y periodo comercial.
-- Visualización de ticket promedio y métricas de ventas.
-- Análisis de desempeño por región y zona comercial.
-- Tendencias de crecimiento y comportamiento comercial.
-- Filtros interactivos y capacidad de drill-down para análisis detallado.
-- Visualización ejecutiva orientada a la toma de decisiones.
+
+- Monitoreo de KPIs comerciales en tiempo real
+- Seguimiento de nuevos distribuidores y distribuidores activos
+- Análisis de pedidos por semana, mes y periodo comercial
+- Visualización de ticket promedio y métricas de ventas
+- Análisis de desempeño por región y zona comercial
+- Tendencias de crecimiento y comportamiento comercial
+- Filtros interactivos y capacidad de drill-down para análisis detallado
+- Visualización ejecutiva orientada a la toma de decisiones
 
 
 ## Arquitectura de Datos
@@ -45,6 +49,7 @@ Dashboard KPIs Comerciales
 ```
 
 ## Proceso ETL
+
 1. Extracción de datos desde una base de datos SQL
 2. Transformación y carga automatizada mediante scripts en Python
 3. Almacenamiento de información en Google BigQuery
@@ -53,6 +58,7 @@ Dashboard KPIs Comerciales
 
 
 ## Herramientas Utilizadas
+
 - Power BI
 - Power Query
 - DAX
@@ -63,6 +69,7 @@ Dashboard KPIs Comerciales
 
 
 ## Dashboard Preview
+
   <img width="1422" height="802" alt="Captura de pantalla 2026-05-11 133623" src="https://github.com/user-attachments/assets/bea91d51-2511-4de7-a94c-d82b4c1726dd" />
   <br>
   <br>
@@ -78,11 +85,15 @@ Dashboard KPIs Comerciales
 
 
 ## Insights Clave
-•Identificación de regiones con mayor captación de nuevos distribuidores
-•Monitoreo de tendencias de crecimiento comercial por periodo
-•Detección de variaciones en desempeño entre zonas comerciales
-•Mayor visibilidad del proceso de onboarding y desempeño comercial
+
+- Identificación de periodos con mayor volumen de pedidos y crecimiento comercial
+- Detección de zonas comerciales con mayor concentración de distribuidores activos
+- Variaciones relevantes en el ticket promedio entre regiones y periodos de tiempo
+- Monitoreo del comportamiento de incorporación de nuevos distribuidores
+- Mayor visibilidad del desempeño comercial mediante KPIs centralizados e interactivos
+- Identificación de tendencias y patrones comerciales para apoyar la toma de decisiones
 
 
 ## Valor de Negocio
-Este dashboard permite a los equipos comerciales y operativos identificar oportunidades de crecimiento, monitorear el desempeño de adquisición de distribuidores y mejorar la visibilidad del proceso de incorporación de nuevos distribuidores.
+
+Este dashboard permite centralizar y monitorear los principales indicadores del área comercial, proporcionando visibilidad sobre el desempeño de distribuidores, comportamiento de ventas y tendencias de pedidos. La solución facilita la toma de decisiones estratégicas, el seguimiento operativo y la identificación de oportunidades de crecimiento mediante análisis interactivos y KPIs orientados al negocio.
